@@ -1,0 +1,125 @@
+# 北美及欧洲主流国家/地区 → ISO 3166-1 alpha-2 简码
+# 匹配时不区分大小写；键为输入 R 列「收件人国家」可能出现的写法
+# 仅当本表未命中时，才调用 DeepSeek（见 docs/设计文档.md §9.4）
+
+north_america:
+  # 美国
+  United States: US
+  "United States of America": US
+  USA: US
+  U.S.A.: US
+  U.S.: US
+  US: US
+  America: US
+  # 加拿大
+  Canada: CA
+  CA: CA
+  # 墨西哥
+  Mexico: MX
+  México: MX
+  # 其他北美常见目的地
+  Puerto Rico: PR
+  Greenland: GL
+  Bermuda: BM
+  Bahamas: BS
+  "The Bahamas": BS
+  Jamaica: JM
+  "Costa Rica": CR
+  Panama: PA
+  Guatemala: GT
+  Cuba: CU
+  "Dominican Republic": DO
+  Haiti: HT
+  Honduras: HN
+  Nicaragua: NI
+  "El Salvador": SV
+  Belize: BZ
+  "Trinidad and Tobago": TT
+  Barbados: BB
+  "Cayman Islands": KY
+  Aruba: AW
+  Curaçao: CW
+  Curacao: CW
+
+europe:
+  # 西欧
+  "United Kingdom": GB
+  英国: GB
+  UK: GB
+  U.K.: GB
+  "Great Britain": GB
+  Britain: GB
+  England: GB
+  Scotland: GB
+  Wales: GB
+  "Northern Ireland": GB
+  France: FR
+  Germany: DE
+  Deutschland: DE
+  Italy: IT
+  Italia: IT
+  Spain: ES
+  España: ES
+  Portugal: PT
+  Netherlands: NL
+  Holland: NL
+  "The Netherlands": NL
+  Belgium: BE
+  Belgique: BE
+  Luxembourg: LU
+  Ireland: IE
+  "Republic of Ireland": IE
+  Switzerland: CH
+  Schweiz: CH
+  Suisse: CH
+  Austria: AT
+  Österreich: AT
+  # 北欧
+  Sweden: SE
+  Norway: NO
+  Denmark: DK
+  Finland: FI
+  Iceland: IS
+  # 中欧 & 东欧（主流电商目的地）
+  Poland: PL
+  Polska: PL
+  Czech Republic: CZ
+  Czechia: CZ
+  Hungary: HU
+  Romania: RO
+  Slovakia: SK
+  Croatia: HR
+  Slovenia: SI
+  Bulgaria: BG
+  Serbia: RS
+  Greece: GR
+  Hellas: GR
+  Ukraine: UA
+  # 波罗的海
+  Estonia: EE
+  Latvia: LV
+  Lithuania: LT
+  # 其他欧洲常见目的地
+  Malta: MT
+  Cyprus: CY
+  "North Macedonia": MK
+  Macedonia: MK
+  Albania: AL
+  Bosnia: BA
+  "Bosnia and Herzegovina": BA
+  Montenegro: ME
+  Moldova: MD
+  Belarus: BY
+  Georgia: GE
+  Armenia: AM
+  Azerbaijan: AZ
+  Andorra: AD
+  Monaco: MC
+  Liechtenstein: LI
+  "San Marino": SM
+  Vatican: VA
+  "Vatican City": VA
+  Gibraltar: GI
+  "Faroe Islands": FO
+  Reunion: RE
+  Réunion: RE
